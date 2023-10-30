@@ -1,0 +1,40 @@
+body {
+    background-color: green;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.carta {
+    width: 200px;
+    height: 300px;
+    perspective: 1000px;
+    border: 1px solid #000;
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.numero {
+    font-size: 100px;
+    margin: 90px auto;
+    text-align: center;
+}
+
+
+.palo-izquierdo {
+    position: absolute;
+    left: 10px;
+    font-size: 60px;
+}
+
+.palo-derecho {
+    position: absolute;
+    bottom: 1px;
+    right: 10px;
+    transform: scaleY(-1);
+    font-size: 60px;
+}

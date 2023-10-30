@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Repartidor de Cartas</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="carta">
+        <div class="palo-izquierdo" id="palo-izquierdo">♠</div>
+        <div class="numero" id="valor">2</div>
+        <div class="palo-derecho" id="palo-derecho">♠</div>
+    </div>
+    <div>
+        <label for="width-input">Ancho (px):</label>
+        <input type="number" id="width-input" placeholder="Ancho" />
+        <label for="height-input">Alto (px):</label>
+        <input type="number" id="height-input" placeholder="Alto" />
+        <button id="aplicar-dimensiones">Aplicar Dimensiones</button>
+    </div>
+
+    <button id="generar-carta">Generar Carta</button>
+    <script src="app.js"></script>
+</body>
+
+</html>
